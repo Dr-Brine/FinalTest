@@ -13,7 +13,7 @@ public class Driver {
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
-        options.addArguments("--force-device-scale-factor=0.85");
+        options.addArguments("--force-device-scale-factor=0.75");
         options.addArguments("--incognito");
 
         driver.set(new ChromeDriver(options));
